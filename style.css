@@ -1,0 +1,22 @@
+button{
+    background-color: rgb(88, 60, 32);
+    color: white;
+    font-size: large;
+}
+button:hover{
+background-color: grey;
+}
+canvas{
+    animation-name: canvas_1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes canvas_1{
+    from {box-shadow: 1px 1px 40px #c4a189;}
+    to {box-shadow: 1px 1px 40px peachpuff;} 
+}
+body{
+    background-position: center;
+    background-size: cover;
+    font-family: 'Permanent Marker', cursive;
+}
